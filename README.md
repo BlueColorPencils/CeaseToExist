@@ -1,7 +1,7 @@
 # CeaseToExist
 
 ## What is the goal of the project?
-#### I want to create a website where you can login with Facebook and search for a person and then remove all instances of them from your life. Currently FB has the option to search for people that you are friends with but not ex friends.
+I want to create a website where you can login with Facebook and search for a person and then remove all instances of them from your life. Currently FB has the option to search for people that you are friends with but not ex friends.
 
 ## Who is the target audience (can be just yourself)?
 #### It's for anyone who wants to purge.
