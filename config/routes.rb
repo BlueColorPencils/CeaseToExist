@@ -6,8 +6,11 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   root to: 'users#index', via: :get
-  get 'auth/facebook', as: "auth_provider"
-  get 'auth/facebook/callback', to: 'users#login'
+  # get 'auth/facebook', as: "auth_provider"
+  get 'auth/:provider/callback' => 'sessions#create'
+  get '/signout' => 'sessions#destroy', as: :signout
+
+  get '/signin' => 'sessions#new', as: :signin
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

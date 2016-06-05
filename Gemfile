@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
-gem "koala", "~> 2.2"
+# gem "koala", "~> 2.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -27,7 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # gems for api interactions
 gem 'httparty', '~> 0.13.7'
-gem 'omniauth-facebook', '~> 3.0'
+gem 'omniauth-facebook'
+gem 'koala'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

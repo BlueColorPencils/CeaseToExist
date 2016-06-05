@@ -224,10 +224,10 @@ DEPENDENCIES
   httparty (~> 0.13.7)
   jbuilder (~> 2.0)
   jquery-rails
-  koala (~> 2.2)
+  koala
   minitest
   minitest-reporters
-  omniauth-facebook (~> 3.0)
+  omniauth-facebook
   pg (~> 0.15)
   pretty_time (~> 0.2.2)
   pry-rails
