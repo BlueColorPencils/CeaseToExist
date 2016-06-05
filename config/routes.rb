@@ -5,9 +5,9 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-  root 'sessions#index'
-  delete "/logout" => "sessions#destroy"
-  get "/auth/:provider/callback" => "sessions#create"
+  root to: 'users#index', via: :get
+  get 'auth/facebook', as: "auth_provider"
+  get 'auth/facebook/callback', to: 'users#login'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

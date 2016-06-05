@@ -29,6 +29,8 @@
 /test/version_tmp/
 /tmp/
 
+/config/facebook.yml
+
 ## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/
